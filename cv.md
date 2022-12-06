@@ -54,6 +54,17 @@ In my free time I play table tennis and every time I discover something new in c
 
 ------------------------- 
 
+## Work experience:
+
+* __[Stellar Burger](https://github.com/zhig1ov/react-burger)__ (React, Redux, TypeScript)
+* __[Mesto](https://github.com/zhig1ov/mesto-project)__ (JS, HTML, CSS, Webpack)
+* __[Algososh](https://github.com/zhig1ov/algososh)__ (HTML, CSS, TypeScript, Cypress, Jest)
+* __[Traveling in Russia](https://github.com/zhig1ov/russian-travel)__ (HTML, CSS, BEM, Adaptive layout)
+* __[ToDO App](https://github.com/zhig1ov/todo-app)__ (React, TypeScript, MobX, Sass)
+* __[Brain games](https://github.com/zhig1ov/Brain-games)__ (JavaScript)
+
+------------------------- 
+
 ## University: 
 
 Orenburg State Agrarian University, Technosphere safety
