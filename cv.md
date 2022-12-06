@@ -24,4 +24,34 @@ In my free time I play table tennis and every time I discover something new in c
 
 ------------------------- 
 
+## Skills
 
+* HTML, CSS/SASS
+* JavaScript
+* Git, GitHub
+* React, Redux
+* TypeScript
+* Node.js
+* Jest, Cypress
+* SQL, NoSQL
+
+------------------------- 
+
+## Code Example
+
+    const isPalindrome = (str) => {
+      let left = 0,
+           right = str.length - 1;
+
+      while(left < right) {
+        if (str[left] !== str[right]) {
+          return false;
+        }
+        left++;
+        right--;
+      }
+
+       return true;
+    }
+
+------------------------- 
