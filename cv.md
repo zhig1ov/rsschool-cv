@@ -2,8 +2,6 @@
 
 # __Artem Zhiglov__
 
-------------------------- 
-
 ## __Contacts__
 
 * __Phone:__ +79328407203
@@ -55,3 +53,21 @@ In my free time I play table tennis and every time I discover something new in c
     }
 
 ------------------------- 
+
+## University: 
+
+Orenburg State Agrarian University, Technosphere safety
+
+## Courses:
+
+* Web-Developer plus on __[Yandex.Practicum](https://practicum.yandex.ru/web-plus/)__
+* RS Schools Course __[«JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)__ (in progress)
+
+------------------------- 
+
+## Languages:
+
+* Russian - Native
+* English - Elementary (A2 in progress)
+
+I study English in English courses from Yandex.Practicum
