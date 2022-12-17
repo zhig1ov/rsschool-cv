@@ -43,6 +43,24 @@
             <a href="https://github.com/zhig1ov" class="main__text place__link"><img class="main__text_github-icon" src="./img/github-mark.svg" alt="GitHub"></a>
           </div>
         </div>
+        <pre class="main__code">Code Example
+          <code>
+    const isPalindrome = (str) => {
+      let left = 0,
+           right = str.length - 1;
+
+      while(left < right) {
+        if (str[left] !== str[right]) {
+          return false;
+        }
+        left++;
+        right--;
+      }
+
+       return true;
+    }
+          </code>
+        </pre>
       </div>
       <div>
         <div class="main_position">

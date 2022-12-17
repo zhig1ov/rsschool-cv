@@ -49,6 +49,7 @@ li {
 .main {
   display: flex;
   padding: 0 80px;
+
 }
 
 .main__info {
@@ -178,6 +179,10 @@ li {
 .main__list .main__skill {
   font-size: 16px;
   line-height: 24px;
+}
+
+.main__code {
+  max-width: 100px;
 }
 
 .footer {
