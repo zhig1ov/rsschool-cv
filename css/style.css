@@ -1,0 +1,39 @@
+.page {
+  background-color: #e6ebe9;
+  margin: 0;
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.page__centered {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 30px;
+}
+
+.header__avatar {
+  max-height: 180px;
+  width: 180px;
+  border-radius: 100px; 
+  box-shadow: 0 0 7px #666; 
+  margin: 50px 60px 30px 30px;
+}
+
+.header__post {
+  margin: 70px 0;
+}
+
+.header__name {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+}
+
+.header__position {
+  font-weight: 300;
+  margin: 0;
+}
