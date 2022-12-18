@@ -72,7 +72,7 @@ Orenburg State Agrarian University, Technosphere safety
 ## Courses:
 
 * Web-Developer plus on __[Yandex.Practicum](https://practicum.yandex.ru/web-plus/)__
-* RS Schools Course __[«JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)__ (in progress)
+* RS Schools Course __[«JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)__ ()
 
 ------------------------- 
 
