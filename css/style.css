@@ -1,0 +1,286 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ 
+ ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+
+.page {
+  background-color: #e6ebe9;
+  margin: 0;
+}
+
+.page__centered {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 30px 30px 0;
+}
+
+.header__avatar {
+  max-height: 180px;
+  width: 180px;
+  border-radius: 100px; 
+  box-shadow: 0 0 7px #666; 
+  margin: 50px 60px 30px 30px;
+}
+
+.header__post {
+  margin: 70px 0;
+}
+
+.header__name {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+}
+
+.header__position {
+  font-weight: 300;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  padding: 0 80px;
+
+}
+
+.main__info {
+  margin-right: 100px;
+}
+
+.main__education {
+  margin-bottom: 30px;
+}
+
+.main_position {
+  position: relative;
+}
+
+.main__title::before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  top: 30px;
+  width: 100px;
+  height: 5px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(63,136,143, 0.9);
+  z-index: 0;
+}
+
+.main__line::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  top: 250px;
+  width: 500px;
+  height: 20px;
+  background: rgba(63,136,143);
+  z-index: 0;
+}
+
+.main__title_profile::before {
+  left: 13%;
+  width: 75px;
+}
+
+.main__title_experience::before {
+  left: 19%;
+  width: 126px;
+}
+
+.main__title_education::before {
+  left: 33%;
+  width: 115px;
+}
+
+.main__title_skills::before {
+  left: 11%;
+  width: 60px;
+}
+
+.main__title_languages::before {
+  left: 34%;
+  width: 120px;
+}
+
+.place__link {
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration-line: none;
+  color: black;
+  max-width: 456px;
+}
+
+.place__link:hover {
+  opacity: 0.5;
+  transition: 0.1s ease-in;
+}
+
+.place__link_bold {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.main__text {
+  line-height: 1.5em;
+  margin-right: 5px;
+  min-width: 220px;
+}
+
+.main__contact {
+  position: relative;
+}
+
+.main__profile {
+  position: relative;
+}
+
+.main__text_slim {
+  font-weight: 300;
+}
+
+.main__text_github-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 2px;
+}
+
+.main__text_linkedin-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 2px;
+}
+
+.main__list .main__text {
+  margin: 15px 0;
+}
+
+.main__list .main__experience {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.main__list .main__skill {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main__code {
+  max-width: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0;
+}
+
+@media screen and (max-width: 840px) {
+  .main__line::before {
+    width: 400px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .place__link {
+    padding: 0 16px;
+  }
+
+  .main__line::before {
+    width: 200px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__profile {
+    order: 0;
+  }
+
+  .main__info {
+    order: 1;
+  }
+
+  .header {
+    max-width: 500px;
+    margin-right: 0;
+  }
+
+  .header__avatar {
+    max-height: 140px;
+    width: 140px;
+  }
+
+  .header__name {
+    font-size: 28px;
+  }
+
+  .header__position {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .main__text {
+    font-size: 14px;
+  }
+
+  .main__list .main__skill {
+    font-size: 14px;
+  }
+
+  .main__list .main__experience {
+    font-size: 14px;
+  }
+
+  .place__link_bold {
+    font-size: 16px;
+  }
+
+  .header__name {
+    font-size: 22px;
+  }
+
+  .header__position {
+    font-size: 18px;
+  }
+
+  .header__avatar {
+    max-height: 100px;
+    width: 100px;
+  }
+
+  .main__icon-contact {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .main__text {
+    min-width: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main__line::before {
+    top: 270px;
+    width: 200px;
+    left: 50%;
+  }
+}
