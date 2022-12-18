@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="assets/icons/free-icon-internet-181526.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+  <div class="page__centered main__line">
+    <header class="header">
+      <img class="header__avatar" src="./assets/img/IMG_0083.PNG" alt="Avatar">
+      <div class="header__post">
+        <h1 class="header__name">Artem Zhiglov</h1>
+        <h2 class="header__position">Junior Front-end Developer</h2>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__info">
+        <div class="main__education main_position">
+          <h2 class="main__title main__title_education">Education</h2>
+          <ul class="main__list">
+            <li class="main__text">2016 - 2020 <br /> Technosphere safety <br /> Orenburg State Agrarian University</li>
+            <li class="main__text">2021 - 2022 <br /> Web Developer Plus <br /> <a href="https://practicum.yandex.ru/web-plus/" class="place__link">Yandex.Practicum</a></li>
+            <li class="main__text">In progress <br /> <a href="https://rs.school/js-stage0/" class="place__link">JavaScript/Front-end. Stage 0</a> <br /> RS Schools</li>
+          </ul>
+        </div>
+        <div class="main_position">
+          <h2 class="main__title main__title_languages">Languages</h2>
+          <ul class="main__list">
+            <li class="main__text">Russian - Native</li>
+            <li class="main__text">English - Elementary (A2 in progress)</li>
+          </ul>
+        </div>
+        <div class="main_position">
+          <h2 class="main__title">Contacts</h2>
+          <p class="main__text">Phone: <br /><span class="main__text_slim">+79328407203</span></p>
+          <p class="main__text">Email: <br /><a href="mailto:zhiglov.artem@yandex.ru" class="main__text_slim place__link">zhiglov.artem@yandex.ru</a></p>
+          <p class="main__text">Telegram: <br /><a href="https://t.me/tmzlv" class="main__text_slim place__link">@tmzlv</a></p>
+          <div class="main__icon-contact">
+            <a href="https://www.linkedin.com/in/zhig1ov" class="main__text place__link a"><img class="main__text_linkedin-icon" src="./assets/svg/linkedin-svgrepo-com.svg" alt="linkedin"></a>
+            <a href="https://github.com/zhig1ov" class="main__text place__link"><img class="main__text_github-icon" src="./assets/svg/github-mark.svg" alt="GitHub"></a>
+          </div>
+        </div>
+        <pre class="main__code">Code Example
+          <code>
+    const isPalindrome = (str) => {
+      let left = 0,
+           right = str.length - 1;
+
+      while(left &lt; right) {
+        if (str[left] !== str[right]) {
+          return false;
+        }
+        left++;
+        right--;
+      }
+
+       return true;
+    }
+          </code>
+        </pre>
+      </div>
+      <div class="main__profile">
+        <div class="main_position">
+          <h2 class="main__title main__title_profile">Profile</h2>
+          <ul class="main__list">
+            <li class="main__text">I like to create things that live on the internet. Web development attracts with a variety of tasks, rapid development and the ability to make people's lives more comfortable. </li>
+            <li class="main__text">I like to read various articles from the field of programming (thecode.media - my love). I consider critical thinking and the ability to notice details to be my strengths, since my previous job was to conduct constant checks and look for violations. </li>
+            <li class="main__text">In my free time I play table tennis and every time I discover something new in cooking. And I'm also learning to crochet :)</li>
+          </ul>
+        </div>
+        <div class="main_position">
+          <h2 class="main__title main__title_experience">Experience</h2>
+          <ul class="main__list">
+            <li class="main__experience"><a href="https://github.com/zhig1ov/react-burger" class="place__link place__link_bold">Stellar Burger</a> <br />(React, Redux, TypeScript)</li>
+            <li class="main__experience"><a href="https://github.com/zhig1ov/mesto-project" class="place__link place__link_bold">Mesto</a> <br />(JS, HTML, CSS, Webpack)</li>
+            <li class="main__experience"><a href="https://github.com/zhig1ov/algososh" class="place__link place__link_bold">Algososh</a> <br />(HTML, CSS, TypeScript, Cypress, Jest)</li>
+            <li class="main__experience"><a href="https://github.com/zhig1ov/russian-travel" class="place__link place__link_bold">Traveling in Russia</a> <br />(HTML, CSS, BEM, Adaptive layout)</li>
+            <li class="main__experience"><a href="https://github.com/zhig1ov/todo-app" class="place__link place__link_bold">ToDO App</a> <br />(React, TypeScript, MobX, Sass)</li>
+            <li class="main__experience"><a href="https://github.com/zhig1ov/Brain-games" class="place__link place__link_bold">Brain games</a> <br />(JavaScript)</li>
+          </ul>
+        </div>
+        <div class="main_position">
+          <h2 class="main__title main__title_skills">Skills</h2>
+          <ul class="main__list">
+            <li class="main__skill">- HTML, CSS/SASS</li>
+            <li class="main__skill">- JavaScript</li>
+            <li class="main__skill">- Git, GitHub</li>
+            <li class="main__skill">- React, Redux</li>
+            <li class="main__skill">- TypeScript</li>
+            <li class="main__skill">- Node.js</li>
+            <li class="main__skill">- Jest, Cypress</li>
+            <li class="main__skill">- SQL, NoSQL</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="place__link" href="https://github.com/zhig1ov">GitHub</a>
+      <p class="footer__copyrating">© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="./assets/svg/rs_school.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
